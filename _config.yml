@@ -1,0 +1,10 @@
+title: "Shubham Saboo"
+description: "UAV Systems Engineer | Robotics & Autonomous Aircraft"
+baseurl: ""
+url: "https://fd-shubham.github.io"
+theme: minima
+markdown: kramdown
+collections:
+projects:
+output: true
+permalink: /projects/:name/
