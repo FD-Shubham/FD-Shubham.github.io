@@ -9,8 +9,6 @@ Before CMU, I worked as a UAV Systems Engineer at F-drones, building long-range 
 
 I love building systems end-to-end — from simulation to embedded implementation — and I thrive at the intersection of robotics, autonomy, and reliability engineering.
 
-![WhatsApp Image 2025-10-09 at 19 50 23_cdb5ed96](https://github.com/user-attachments/assets/d4ee8fdd-1052-414b-8a87-90c315b3b329)
-
 ## Latest Projects
 {% for project in site.projects limit:3 %}
 - [{{ project.title }}]({{ project.url }}) — {{ project.short }}
