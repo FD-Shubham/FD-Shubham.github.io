@@ -4,9 +4,7 @@ title: "About Me"
 permalink: /about/
 ---
 
-# About Me
-
-*Add a photo of yourself here*
+![WhatsApp Image 2025-10-09 at 19 50 23_88ddfa30](https://github.com/user-attachments/assets/6b955073-f4a8-4424-9d15-9f3639f35efa)
 
 I’m **Shubham Saboo**, a budding **Robotics Engineer** specializing in **Field Robotics, UAV Autonomy, and Perception Systems**. I’m currently pursuing my **Master of Science in Robotics (MRSD)** at **Carnegie Mellon University**, where I focus on building robots that operate reliably in challenging real-world environments.
 
