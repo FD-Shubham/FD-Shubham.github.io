@@ -1,23 +1,31 @@
-body {
-font-family: Arial, sans-serif;
-margin: 0;
-background: #f8f9fa;
-color: #222;
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@import "minima";
+
+/* Set the header background to CMU Carnegie Red */
+.site-header {
+  background-color: #C41230;
+  border-top: none; 
+  border-bottom: 2px solid #990000; /* Adds a slight shadow effect */
 }
-header {
-background: #111;
-color: #fff;
-padding: 20px;
-text-align: center;
+
+/* Make the site title white */
+.site-title {
+  color: #FFFFFF !important;
 }
-nav a {
-color: #fff;
-margin: 0 10px;
-text-decoration: none;
-font-weight: bold;
+
+/* Make the navigation links white */
+.site-header .page-link {
+  color: #FFFFFF !important;
 }
-main {
-max-width: 900px;
-margin: auto;
-padding: 40px 20px;
+
+/* Make the links slightly transparent when hovered over */
+.site-header .page-link:hover {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* Ensure the mobile hamburger menu icon is also white */
+.site-header svg {
+  fill: #FFFFFF !important;
 }
