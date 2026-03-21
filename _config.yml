@@ -2,7 +2,7 @@ title: "Shubham Saboo"
 description: "UAV Systems Engineer | Robotics & Autonomous Aircraft"
 baseurl: ""
 url: "https://fd-shubham.github.io"
-theme: hacker
+theme: midnight
 markdown: kramdown
 collections:
 projects:
