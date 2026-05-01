@@ -1,28 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>{{ page.title }} | {{ site.title }}</title>
-<link rel="stylesheet" href="/assets/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title == "Home" %}Shubham Saboo — Robotics Engineer{% else %}{{ page.title }} · Shubham Saboo{% endif %}</title>
+  <meta name="description" content="Robotics engineer specializing in aerial systems, autonomy, and manipulation. MRSD student at Carnegie Mellon University.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 <body>
-<header>
-<h1>{{ site.title }}</h1>
-<nav>
-<a href="/">Home</a>
-<a href="/projects">Projects</a>
-<a href="/blog">Blog</a>
-<a href="/about">About</a>
-</nav>
-</header>
 
+  <nav class="site-nav">
+    <a href="{{ '/' | relative_url }}" class="nav-logo">SS</a>
+    <div class="nav-links">
+      <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
+      <a href="{{ '/projects/' | relative_url }}" {% if page.url contains '/projects' %}class="active"{% endif %}>Projects</a>
+      <a href="{{ '/about/' | relative_url }}" {% if page.url contains '/about' %}class="active"{% endif %}>About</a>
+      <a href="{{ '/blog/' | relative_url }}" {% if page.url contains '/blog' %}class="active"{% endif %}>Blog</a>
+    </div>
+    <a href="{{ '/assets/Shubham_Saboo_Resume.pdf' | relative_url }}" class="nav-cta" target="_blank" rel="noopener">Resume ↓</a>
+    <button class="nav-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
 
-<main>
-{{ content }}
-</main>
+  <main>
+    {{ content }}
+  </main>
 
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a href="https://linkedin.com/in/shubhamsaboo" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/FD-Shubham" target="_blank" rel="noopener">GitHub</a>
+      <a href="mailto:ssaboo@andrew.cmu.edu">Email</a>
+    </div>
+    <div class="footer-copy">Shubham Saboo · Pittsburgh, PA</div>
+  </footer>
 
-<footer>
-© {{ site.time | date: "%Y" }} {{ site.title }}
-</footer>
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
 </body>
 </html>

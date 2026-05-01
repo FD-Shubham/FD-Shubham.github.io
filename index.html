@@ -3,30 +3,113 @@ layout: default
 title: Home
 ---
 
-<h2>Hi, I'm Shubham Saboo</h2>
-<p>I am a robotics engineer passionate about building autonomous systems that expand the boundaries of what robots can do in the real world. My exposure to the entire engineering development cycle gives me the ability to conceptualize, architect, design, build, test, validate, and deploy these complex systems.</p>
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <p class="hero-eyebrow">Robotics Engineer · CMU MRSD</p>
+    <h1 class="hero-name">Shubham<br>Saboo</h1>
+    <p class="hero-subtitle">Aerial Systems &nbsp;·&nbsp; Autonomy &nbsp;·&nbsp; Manipulation</p>
+    <p class="hero-bio">
+      Building autonomous systems that work in the real world — from fully-actuated multirotors performing aerial manipulation to offshore cargo delivery UAVs. I operate end-to-end: simulation, embedded implementation, and deployed systems.
+    </p>
+    <div class="hero-btns">
+      <a href="/projects/" class="btn-primary">View Projects</a>
+      <a href="mailto:ssaboo@andrew.cmu.edu" class="btn-secondary">Get in Touch</a>
+    </div>
+    <div class="hero-tags">
+      <span class="tag">PX4 / ArduPilot</span>
+      <span class="tag">ROS 2</span>
+      <span class="tag">VIO &amp; State Estimation</span>
+      <span class="tag">Motion Planning</span>
+      <span class="tag">Control Theory</span>
+      <span class="tag">C++ / Python</span>
+    </div>
+  </div>
 
-<p>I am currently pursuing the M.S. in Robotic Systems Development (MRSD) at Carnegie Mellon University, where I am focusing on perception, motion planning, and robust autonomy for aerial and ground robots.</p>
+  <div class="hero-photo">
+    <!-- Replace with your actual photo: -->
+    <!-- <img src="/assets/images/shubham.jpg" alt="Shubham Saboo"> -->
+    <div class="hero-photo-placeholder">
+      <svg width="36" height="36" viewBox="0 0 24 24" fill="rgba(255,255,255,0.15)">
+        <path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/>
+      </svg>
+      <span>Add your photo to<br>/assets/images/</span>
+    </div>
+  </div>
+</section>
 
-<p>Before CMU, I worked as a UAV Systems Engineer at F-drones, building long-range autonomous delivery aircraft and developing reliable flight autonomy that works in challenging offshore environments. My background includes UAV design, flight controls, computer vision for landing systems, and energy-based range estimation, backed by hands-on testing and deployment experience.</p>
+<!-- STATS BAR -->
+<div class="stats-bar">
+  <div class="stats-inner">
+    <div class="stat-item">
+      <div class="stat-num">5+</div>
+      <div class="stat-label">Years UAV Experience</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">2</div>
+      <div class="stat-label">Deployed Cargo UAVs</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">CMU</div>
+      <div class="stat-label">AIR Lab · MRSD '25</div>
+    </div>
+  </div>
+</div>
 
-<p>I love building systems end-to-end — from simulation to embedded implementation — and I thrive at the intersection of robotics, autonomy, and reliability engineering.</p>
+<!-- FEATURED PROJECTS -->
+<section class="projects-section">
+  <div class="section-header">
+    <span class="section-title">Featured Projects</span>
+    <a href="/projects/" class="section-link">All projects →</a>
+  </div>
 
-<br>
+  <div class="project-cards">
 
-<h2>Latest Projects</h2>
-<hr>
+    <a href="/projects/" class="project-card">
+      <div class="card-accent-bar" style="background: #d4f55a;"></div>
+      <div class="card-body">
+        <span class="card-arrow">↗</span>
+        <div class="card-org">CMU AIR Lab</div>
+        <div class="card-title">Flying Hand: Aerial Manipulation</div>
+        <div class="card-desc">Fully-actuated hexarotor designed for precise non-destructive testing of industrial assets. Omni-directional wrench control, VIO-based positioning, and ATI Gamma F/T sensing.</div>
+        <div class="card-chips">
+          <span class="chip">PX4</span>
+          <span class="chip">CubeOrange+</span>
+          <span class="chip">F/T Sensing</span>
+          <span class="chip">VIO</span>
+        </div>
+      </div>
+    </a>
 
-<h3>Flying Hand: Aerial Robotic Manipulation</h3>
-<p><strong>CMU AIR Lab</strong> | Developing a fully-actuated multirotor designed to perform precise non-destructive testing (NDT) for industrial assets. Focuses include robust fly-by-wire interaction controllers and precise state estimation for contact-based tasks.</p>
-<a href="/projects/">View Project Details →</a>
-<br><br>
+    <a href="/projects/" class="project-card">
+      <div class="card-accent-bar" style="background: #5b8fff;"></div>
+      <div class="card-body">
+        <span class="card-arrow">↗</span>
+        <div class="card-org">F-Drones</div>
+        <div class="card-title">Autonomous Cargo UAVs</div>
+        <div class="card-desc">End-to-end MVP development of two long-range delivery drones. Autopilot integration, flight log analysis, and a computer-vision precision landing system using static H-markers.</div>
+        <div class="card-chips">
+          <span class="chip">ArduPilot</span>
+          <span class="chip">Computer Vision</span>
+          <span class="chip">Offshore Ops</span>
+        </div>
+      </div>
+    </a>
 
-<h3>Commercial Cargo UAVs (Hyperlaunch & Hypercopter)</h3>
-<p><strong>F-drones</strong> | Spearheaded the end-to-end development of two MVP autonomous cargo delivery drones[cite: 87, 91]. Led autopilot integration, rigorous log analysis [cite: 113], and deployed a computer-vision-based precision landing system using static H-markers[cite: 256, 257].</p>
-<a href="/projects/">View Project Details →</a>
-<br><br>
+    <a href="/projects/" class="project-card">
+      <div class="card-accent-bar" style="background: #ff6b6b;"></div>
+      <div class="card-body">
+        <span class="card-arrow">↗</span>
+        <div class="card-org">SAE Aero Design</div>
+        <div class="card-title">Skytroopers: Heavy-Lift Fixed-Wing UAV</div>
+        <div class="card-desc">Led a 30-member multidisciplinary team as captain and mechanical design head. Full CAD, FEA, and CFD pipeline for a competition heavy-lift RC aircraft.</div>
+        <div class="card-chips">
+          <span class="chip">CAD / FEA</span>
+          <span class="chip">CFD</span>
+          <span class="chip">Team Lead</span>
+        </div>
+      </div>
+    </a>
 
-<h3>The Skytroopers: Heavy-Lift Fixed-Wing UAVs</h3>
-<p><strong>SAE Aero Design</strong> | Led a 30-member multidisciplinary team as Captain and Mechanical Design Head[cite: 34]. Managed the end-to-end CAD/FEA/CFD design and rapid prototyping of heavy-lift RC aircraft[cite: 29, 30, 31, 32].</p>
-<a href="/projects/">View Project Details →</a>
+  </div>
+</section>
