@@ -3,106 +3,98 @@ layout: default
 title: Home
 ---
 
-<!-- HERO -->
-<section class="hero">
+<section class="hero" id="hero">
   <div class="hero-content">
-    <p class="hero-eyebrow">Robotics Engineer · CMU MRSD</p>
-    <h1 class="hero-name">Shubham<br>Saboo</h1>
-    <p class="hero-subtitle">Aerial Systems &nbsp;·&nbsp; Autonomy &nbsp;·&nbsp; Manipulation</p>
+    <div class="hero-eyebrow">Robotics Engineer · CMU MRSD '25</div>
+    <h1 class="hero-name">Shubham Saboo</h1>
+    <div class="hero-tagline">
+      <span>Aerial Systems</span><span class="sep"> · </span>
+      <span>Autonomy</span><span class="sep"> · </span>
+      <span>Manipulation</span>
+    </div>
     <p class="hero-bio">
-      Building autonomous systems that work in the real world — from fully-actuated multirotors performing aerial manipulation to offshore cargo delivery UAVs. I operate end-to-end: simulation, embedded implementation, and deployed systems.
+      Building <strong>autonomous systems that work in the real world</strong> — from fully-actuated multirotors performing aerial manipulation to offshore cargo delivery UAVs. I operate end-to-end: simulation, embedded implementation, and deployed systems.
     </p>
-    <div class="hero-btns">
+    <div class="hero-actions">
       <a href="/projects/" class="btn-primary">View Projects</a>
       <a href="mailto:spsaboo@andrew.cmu.edu" class="btn-secondary">Get in Touch</a>
     </div>
-    <div class="hero-tags">
-      <span class="tag">PX4 / ArduPilot</span>
-      <span class="tag">ROS 2</span>
-      <span class="tag">VIO &amp; State Estimation</span>
-      <span class="tag">Motion Planning</span>
-      <span class="tag">Control Theory</span>
-      <span class="tag">C++ / Python</span>
-    </div>
   </div>
-
-  <div class="hero-photo">
-    <img src="/assets/images/Profile.jpg" alt="Shubham Saboo">
+  <div class="hero-photo-wrap">
+    <img src="/assets/images/Profile.jpg" alt="Shubham Saboo" class="hero-photo">
   </div>
 </section>
 
-<!-- STATS BAR -->
-<div class="stats-bar">
-  <div class="stats-inner">
+<hr class="section-divider">
+
+<section id="stack">
+  <div class="section-label">Background</div>
+  <div class="stats-row">
     <div class="stat-item">
-      <div class="stat-num">5+</div>
+      <div class="stat-value">5<span>+</span></div>
       <div class="stat-label">Years UAV Experience</div>
     </div>
     <div class="stat-item">
-      <div class="stat-num">2</div>
+      <div class="stat-value">2</div>
       <div class="stat-label">Deployed Cargo UAVs</div>
     </div>
     <div class="stat-item">
-      <div class="stat-num">CMU</div>
+      <div class="stat-value" style="font-size:1.3rem;padding-top:4px;">CMU</div>
       <div class="stat-label">AIR Lab · MRSD '25</div>
     </div>
   </div>
-</div>
 
-<!-- FEATURED PROJECTS -->
-<section class="projects-section">
-  <div class="section-header">
-    <span class="section-title">Featured Projects</span>
-    <a href="/projects/" class="section-link">All projects →</a>
+  <div class="section-label">Tech Stack</div>
+  <div class="stack-grid">
+    <div class="stack-item"><div class="stack-dot"></div><span class="stack-name">PX4 / ArduPilot</span><span class="stack-category">Flight</span></div>
+    <div class="stack-item"><div class="stack-dot"></div><span class="stack-name">ROS 2</span><span class="stack-category">Middleware</span></div>
+    <div class="stack-item"><div class="stack-dot"></div><span class="stack-name">VIO &amp; State Est.</span><span class="stack-category">Perception</span></div>
+    <div class="stack-item"><div class="stack-dot"></div><span class="stack-name">Motion Planning</span><span class="stack-category">Planning</span></div>
+    <div class="stack-item"><div class="stack-dot"></div><span class="stack-name">Control Theory</span><span class="stack-category">Control</span></div>
+    <div class="stack-item"><div class="stack-dot"></div><span class="stack-name">C++ / Python</span><span class="stack-category">Code</span></div>
   </div>
+</section>
 
-  <div class="project-cards">
+<hr class="section-divider">
 
-    <a href="/projects/flying-hand/" class="project-card">
-      <div class="card-accent-bar" style="background: #d4f55a;"></div>
-      <div class="card-body">
-        <span class="card-arrow">↗</span>
-        <div class="card-org">CMU AIR Lab</div>
-        <div class="card-title">Flying Hand: Aerial Manipulation</div>
-        <div class="card-desc">Fully-actuated hexarotor designed for precise non-destructive testing of industrial assets. Omni-directional wrench control, VIO-based positioning, and ATI Gamma F/T sensing.</div>
-        <div class="card-chips">
-          <span class="chip">PX4</span>
-          <span class="chip">CubeOrange+</span>
-          <span class="chip">F/T Sensing</span>
-          <span class="chip">VIO</span>
+<section id="projects">
+  <div class="section-label">Featured Projects</div>
+  <div class="projects-list">
+    <a class="project-row" href="/projects/flying-hand/">
+      <div>
+        <div class="project-org">CMU AIR Lab</div>
+        <div class="project-title">Flying Hand: Aerial Manipulation</div>
+        <p class="project-desc">Fully-actuated hexarotor for non-destructive testing of industrial assets. Omni-directional wrench control, VIO-based positioning, and ATI Gamma F/T sensing.</p>
+        <div class="project-tags">
+          <span class="tag">PX4</span><span class="tag">CubeOrange+</span><span class="tag">F/T Sensing</span><span class="tag">VIO</span>
         </div>
       </div>
+      <div class="project-arrow">↗</div>
     </a>
-
-    <a href="/projects/cargo-uavs/" class="project-card">
-      <div class="card-accent-bar" style="background: #5b8fff;"></div>
-      <div class="card-body">
-        <span class="card-arrow">↗</span>
-        <div class="card-org">F-Drones</div>
-        <div class="card-title">Autonomous Cargo UAVs</div>
-        <div class="card-desc">End-to-end MVP development of two long-range delivery drones. Autopilot integration, flight log analysis, and a computer-vision precision landing system using static H-markers.</div>
-        <div class="card-chips">
-          <span class="chip">ArduPilot</span>
-          <span class="chip">Computer Vision</span>
-          <span class="chip">Offshore Ops</span>
+    <a class="project-row" href="/projects/cargo-uavs/">
+      <div>
+        <div class="project-org">F-Drones</div>
+        <div class="project-title">Autonomous Cargo UAVs</div>
+        <p class="project-desc">End-to-end MVP development of two long-range delivery drones. Autopilot integration, flight log analysis, and computer-vision precision landing on moving vessels.</p>
+        <div class="project-tags">
+          <span class="tag">ArduPilot</span><span class="tag">Computer Vision</span><span class="tag">RTK GPS</span><span class="tag">Offshore Ops</span>
         </div>
       </div>
+      <div class="project-arrow">↗</div>
     </a>
-
-    <a href="/projects/skytroopers/" class="project-card">
-      <div class="card-accent-bar" style="background: #ff6b6b;"></div>
-      <div class="card-body">
-        <span class="card-arrow">↗</span>
-        <div class="card-org">SAE Aero Design</div>
-        <div class="card-title">Skytroopers: Heavy-Lift Fixed-Wing UAV</div>
-        <div class="card-desc">Led a 30-member multidisciplinary team as captain and mechanical design head. Full CAD, FEA, and CFD pipeline for a competition heavy-lift RC aircraft.</div>
-        <div class="card-chips">
-          <span class="chip">CAD / FEA</span>
-          <span class="chip">CFD</span>
-          <span class="chip">Team Lead</span>
+    <a class="project-row" href="/projects/skytroopers/">
+      <div>
+        <div class="project-org">SAE Aero Design</div>
+        <div class="project-title">Skytroopers: Heavy-Lift Fixed-Wing UAV</div>
+        <p class="project-desc">Led a 30-member multidisciplinary team as captain and mechanical design head. Full CAD, FEA, and CFD pipeline. Won "Outstanding Technical Presentation" at Asia-Pacific level.</p>
+        <div class="project-tags">
+          <span class="tag">CAD / FEA</span><span class="tag">CFD</span><span class="tag">Composites</span><span class="tag">Team Lead</span>
         </div>
       </div>
+      <div class="project-arrow">↗</div>
     </a>
-
+  </div>
+  <div style="margin-top:1.5rem;text-align:right;">
+    <a href="/projects/" style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:var(--accent);text-decoration:none;font-weight:600;">All projects →</a>
   </div>
 </section>

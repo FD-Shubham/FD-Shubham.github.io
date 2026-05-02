@@ -4,79 +4,78 @@ title: About
 permalink: /about/
 ---
 
-<section class="about-hero">
-  <div class="about-hero-inner">
-    <div class="about-text">
-      <p class="page-eyebrow">About</p>
-      <h1 class="page-title">Shubham Saboo</h1>
-      <p class="about-role">Robotics Engineer · CMU MRSD '25</p>
-      <p class="about-bio">
-        I build autonomous systems that work in the real world — from fully-actuated multirotors performing aerial manipulation to offshore cargo delivery UAVs. I operate end-to-end: simulation, embedded implementation, and deployed hardware.
-      </p>
-      <p class="about-bio">
-        My journey started with hands-on drone development during undergrad, led to shipping two commercial cargo UAVs at F-drones, and now to pushing the limits of aerial manipulation at CMU's AIR Lab.
-      </p>
+<div class="page-header">
+  <p class="page-eyebrow">Background</p>
+  <h1 class="page-title">About</h1>
+</div>
+
+<div class="about-layout">
+  <div>
+    <div class="bio-block">
+      <div class="section-label">Bio</div>
+      <p>I'm a robotics engineer completing my Master's in Robotic Systems Development (MRSD) at <strong>Carnegie Mellon University</strong>, where I work in the Aerial Intelligent Robotics (AIR) Lab on fully-actuated aerial manipulation platforms.</p>
+      <p>My work spans the full stack — from low-level embedded autopilot firmware on PX4 and ArduPilot, to state estimation pipelines using visual-inertial odometry, to high-level motion planning and control for contact-rich tasks.</p>
+      <p>Before CMU, I led the development of <strong>two deployed offshore cargo UAVs</strong> at F-Drones in Singapore, building end-to-end from autopilot integration to computer-vision precision landing. I also captained a 30-person team to compete in the SAE Aero Design competition, winning "Outstanding Technical Presentation" at the Asia-Pacific level.</p>
     </div>
-    <div class="about-photo">
-      <img src="https://github.com/user-attachments/assets/5f61ac89-2eea-4f99-a0ff-e655566ec9d9" alt="Shubham Saboo">
+
+    <div class="section-label">Experience</div>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="tl-year">2024–25</div>
+        <div>
+          <div class="tl-title">Graduate Researcher</div>
+          <div class="tl-org">CMU AIR Lab · Pittsburgh, PA</div>
+          <div class="tl-desc">Aerial manipulation with fully-actuated multirotors. VIO state estimation, omni-directional wrench control, contact force sensing for NDT.</div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="tl-year">2021–23</div>
+        <div>
+          <div class="tl-title">UAV Systems Engineer</div>
+          <div class="tl-org">F-Drones · Singapore</div>
+          <div class="tl-desc">End-to-end MVP of two cargo UAVs. Autopilot integration, RTK/dual-GPS sensor fusion, computer-vision precision landing on moving vessels.</div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="tl-year">2018–21</div>
+        <div>
+          <div class="tl-title">Team Captain &amp; Mechanical Design Head</div>
+          <div class="tl-org">SAE Aero Design · MIT World Peace University</div>
+          <div class="tl-desc">Led 30-member team. Full CAD/FEA/CFD pipeline for heavy-lift fixed-wing aircraft. Won "Outstanding Technical Presentation", Asia-Pacific.</div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="tl-year">2019–23</div>
+        <div>
+          <div class="tl-title">B.Tech, Mechanical Engineering</div>
+          <div class="tl-org">MIT World Peace University</div>
+          <div class="tl-desc">Focus on dynamics, control systems, and robotics. Introduced to UAV design through the Aero Design competition team.</div>
+        </div>
+      </div>
     </div>
   </div>
-</section>
 
-<div class="about-divider"></div>
+  <div class="sidebar">
+    <img src="/assets/images/Profile.jpg" alt="Shubham Saboo" class="about-photo">
 
-<section class="about-focus">
-  <div class="about-section-inner">
-    <h2 class="about-section-title">Focus Areas</h2>
-    <div class="focus-grid">
-      <div class="focus-item">
-        <div class="focus-icon">✦</div>
-        <div class="focus-label">UAV Autonomy</div>
-        <div class="focus-desc">Autopilot integration, sensor fusion, and flight control for fixed-wing and multirotor platforms in real-world deployments.</div>
-      </div>
-      <div class="focus-item">
-        <div class="focus-icon">✦</div>
-        <div class="focus-label">Motion Planning &amp; Control</div>
-        <div class="focus-desc">Trajectory optimization, interaction control, and robust state estimation under external disturbances.</div>
-      </div>
-      <div class="focus-item">
-        <div class="focus-icon">✦</div>
-        <div class="focus-label">Computer Vision</div>
-        <div class="focus-desc">Perception pipelines for landing, inspection, and environment understanding on resource-constrained aerial systems.</div>
-      </div>
-      <div class="focus-item">
-        <div class="focus-icon">✦</div>
-        <div class="focus-label">System Integration</div>
-        <div class="focus-desc">End-to-end deployment from simulation to fielded hardware — HITL, SITL, embedded firmware, and offshore operations.</div>
+    <div class="sidebar-section">
+      <div class="sidebar-label">Details</div>
+      <div class="sidebar-row"><span class="sidebar-key">Location</span><span class="sidebar-val">Pittsburgh, PA</span></div>
+      <div class="sidebar-row"><span class="sidebar-key">Program</span><span class="sidebar-val">CMU MRSD '25</span></div>
+      <div class="sidebar-row"><span class="sidebar-key">Focus</span><span class="sidebar-val">Aerial Robotics</span></div>
+      <div class="sidebar-row"><span class="sidebar-key">Email</span><span class="sidebar-val" style="font-size:10px;">spsaboo@andrew.cmu.edu</span></div>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-label">Proficiency</div>
+      <div class="skills-list" id="skillsList">
+        <div class="skill-row"><div class="skill-name">C++ / Python</div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="92"></div></div></div>
+        <div class="skill-row"><div class="skill-name">PX4 / ArduPilot</div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="88"></div></div></div>
+        <div class="skill-row"><div class="skill-name">ROS 2</div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="85"></div></div></div>
+        <div class="skill-row"><div class="skill-name">Control Theory</div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="82"></div></div></div>
+        <div class="skill-row"><div class="skill-name">State Estimation</div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="78"></div></div></div>
+        <div class="skill-row"><div class="skill-name">Motion Planning</div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="75"></div></div></div>
       </div>
     </div>
   </div>
-</section>
-
-<div class="about-divider"></div>
-
-<section class="about-mission">
-  <div class="about-section-inner about-mission-inner">
-    <h2 class="about-section-title">Mission</h2>
-    <p class="about-mission-text">
-      I want to engineer autonomous systems that extend human reach — delivering supplies across oceans, navigating dangerous terrain, and operating where humans can't. At CMU, I'm working toward becoming a systems-oriented roboticist who can take a robot from <span class="accent-text">concept → simulation → hardware → deployment</span>.
-    </p>
-  </div>
-</section>
-
-<div class="about-divider"></div>
-
-<section class="about-outside">
-  <div class="about-section-inner">
-    <h2 class="about-section-title">Outside Robotics</h2>
-    <div class="outside-list">
-      <div class="outside-item">Writing about engineering and the road to CMU</div>
-      <div class="outside-item">Electric aircraft &amp; urban air mobility</div>
-      <div class="outside-item">Exploring robotics research trends</div>
-    </div>
-    <div class="about-links">
-      <a href="https://www.linkedin.com/in/shubhamsaboo270899" class="btn-secondary" target="_blank" rel="noopener">LinkedIn ↗</a>
-      <a href="https://github.com/FD-Shubham" class="btn-secondary" target="_blank" rel="noopener">GitHub ↗</a>
-    </div>
-  </div>
-</section>
+</div>
