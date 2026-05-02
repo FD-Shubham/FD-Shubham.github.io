@@ -15,9 +15,10 @@ permalink: /projects/
 <section class="project-list">
   <div class="project-list-inner">
 
-    <div class="project-entry">
+    <a href="/projects/flying-hand/" class="project-entry">
       <div class="entry-accent-bar" style="background: var(--accent);"></div>
       <div class="entry-content">
+        <span class="entry-arrow">↗</span>
         <div class="entry-meta">
           <span class="entry-org">CMU AIR Lab</span>
           <span class="entry-status">In Progress</span>
@@ -37,11 +38,12 @@ permalink: /projects/
           <span class="chip">C++</span>
         </div>
       </div>
-    </div>
+    </a>
 
-    <div class="project-entry">
+    <a href="/projects/cargo-uavs/" class="project-entry">
       <div class="entry-accent-bar" style="background: var(--blue);"></div>
       <div class="entry-content">
+        <span class="entry-arrow">↗</span>
         <div class="entry-meta">
           <span class="entry-org">F-Drones · UAV Systems Engineer</span>
         </div>
@@ -62,7 +64,7 @@ permalink: /projects/
           <span class="chip">Python</span>
         </div>
       </div>
-    </div>
+    </a>
 
     <div class="project-entry">
       <div class="entry-accent-bar" style="background: var(--red);"></div>
