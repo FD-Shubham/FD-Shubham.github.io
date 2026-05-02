@@ -75,7 +75,7 @@ permalink: /about/
       <div class="outside-item">Exploring robotics research trends</div>
     </div>
     <div class="about-links">
-      <a href="https://linkedin.com/in/shubhamsaboo" class="btn-secondary" target="_blank" rel="noopener">LinkedIn ↗</a>
+      <a href="https://www.linkedin.com/in/shubhamsaboo270899" class="btn-secondary" target="_blank" rel="noopener">LinkedIn ↗</a>
       <a href="https://github.com/FD-Shubham" class="btn-secondary" target="_blank" rel="noopener">GitHub ↗</a>
     </div>
   </div>
