@@ -1,8 +1,32 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-<p><strong>Tech Used:</strong> {{ page.tech | join: ", " }}</p>
 
+<div class="project-detail">
 
-{{ content }}
+  <a href="/projects/" class="project-back">← Projects</a>
+
+  <div class="project-detail-meta">
+    {% if page.org %}<span class="entry-org">{{ page.org }}</span>{% endif %}
+    {% if page.status %}<span class="entry-status">{{ page.status }}</span>{% endif %}
+  </div>
+
+  <h1 class="project-detail-title">{{ page.title }}</h1>
+
+  {% if page.subtitle %}
+  <p class="project-detail-subtitle">{{ page.subtitle }}</p>
+  {% endif %}
+
+  {% if page.tech %}
+  <div class="project-detail-chips">
+    {% for t in page.tech %}<span class="chip">{{ t }}</span>{% endfor %}
+  </div>
+  {% endif %}
+
+  <div class="project-detail-rule"></div>
+
+  <div class="project-detail-body">
+    {{ content }}
+  </div>
+
+</div>
