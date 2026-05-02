@@ -33,7 +33,7 @@ Over three years, the team designed and built multiple aircraft for the Regular 
 
 ## Aircraft Design
 
-<img class="project-featured-img" src="/assets/images/skytroopers/hero.jpg" alt="Final prototype — AeroDesign Florida 2020">
+<img class="project-featured-img" src="/assets/images/skytroopers/hero.jpg" alt="Final prototype — AeroDesign Florida 2020" style="object-position: center bottom;">
 
 - **Airframe** — Balsa and composite construction with laser-cut ribs and 3D-printed structural joints. Full SolidWorks CAD pipeline from concept to fabrication drawings.
 - **Structural Analysis** — FEA in SolidWorks Simulation and ANSYS for wing spar, fuselage bulkhead, and landing gear under max payload and landing loads.

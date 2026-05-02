@@ -49,7 +49,7 @@ permalink: /projects/
   </div>
 
   <div class="project-card-full" style="flex-direction: column;">
-    <img src="/assets/images/skytroopers/hero.jpg" alt="Skytroopers Final Prototype — AeroDesign Florida 2020" style="width: 100%; height: 240px; object-fit: cover; display: block;">
+    <img src="/assets/images/skytroopers/hero.jpg" alt="Skytroopers Final Prototype — AeroDesign Florida 2020" style="width: 100%; height: 240px; object-fit: cover; object-position: center bottom; display: block;">
     <div style="display: flex; flex: 1;">
       <div class="card-accent-left" style="background: #ff6b6b;"></div>
       <div class="card-full-body">

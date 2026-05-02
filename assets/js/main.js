@@ -30,6 +30,37 @@ document.querySelectorAll('.stack-item, .project-row, .stat-item, .project-detai
   obs.observe(el);
 });
 
+// Lightbox
+(function () {
+  const lb = document.createElement('div');
+  lb.className = 'lightbox';
+  lb.innerHTML = '<button class="lightbox-close" aria-label="Close">&#x2715;</button><img alt="">';
+  document.body.appendChild(lb);
+
+  const lbImg = lb.querySelector('img');
+
+  const SELECTORS = '.gallery-grid img, .photo-grid img, .photo-grid-2 img, .project-featured-img';
+
+  document.querySelectorAll(SELECTORS).forEach(img => {
+    img.style.cursor = 'zoom-in';
+    img.addEventListener('click', () => {
+      lbImg.src = img.src;
+      lbImg.alt = img.alt;
+      lb.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    });
+  });
+
+  function close() {
+    lb.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  lb.addEventListener('click', e => { if (e.target !== lbImg) close(); });
+  lb.querySelector('.lightbox-close').addEventListener('click', close);
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
+})();
+
 // Skill bars (about page)
 const barObs = new IntersectionObserver((entries) => {
   entries.forEach(e => {

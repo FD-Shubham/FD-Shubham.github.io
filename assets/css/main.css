@@ -717,6 +717,39 @@ section { padding: 4rem clamp(1.25rem, 4vw, 2.5rem); }
 .post-item:hover .post-arrow { color: var(--text-muted); transform: translate(2px, -2px); }
 .blog-empty { font-size: 13px; color: var(--text-faint); padding: 48px 0; }
 
+/* ── LIGHTBOX ── */
+.lightbox {
+  position: fixed; inset: 0; z-index: 1000;
+  background: rgba(0, 0, 0, 0.92);
+  display: flex; align-items: center; justify-content: center;
+  opacity: 0; visibility: hidden;
+  transition: opacity 0.2s, visibility 0.2s;
+  cursor: zoom-out;
+}
+
+.lightbox.open { opacity: 1; visibility: visible; }
+
+.lightbox img {
+  max-width: min(90vw, 1200px);
+  max-height: 90vh;
+  object-fit: contain;
+  border-radius: var(--radius-img);
+  display: block;
+  cursor: default;
+  filter: none !important;
+  transform: none !important;
+}
+
+.lightbox-close {
+  position: absolute; top: 20px; right: 24px;
+  font-size: 28px; line-height: 1;
+  color: rgba(255, 255, 255, 0.6);
+  cursor: pointer; background: none; border: none;
+  transition: color 0.15s; padding: 4px;
+}
+
+.lightbox-close:hover { color: #fff; }
+
 /* ── RESPONSIVE ── */
 @media (max-width: 768px) {
   .hero { grid-template-columns: 1fr; padding: 4rem 1.25rem 3rem; }
