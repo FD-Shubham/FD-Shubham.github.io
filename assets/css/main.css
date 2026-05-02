@@ -9,9 +9,9 @@
   --bg-card-hover:#16161f;
   --border:       rgba(255, 255, 255, 0.07);
   --border-mid:   rgba(255, 255, 255, 0.12);
-  --text-primary: #e8e6e0;
-  --text-muted:   rgba(232, 230, 224, 0.45);
-  --text-faint:   rgba(232, 230, 224, 0.25);
+  --text-primary: #f0eeea;
+  --text-muted:   rgba(240, 238, 234, 0.72);
+  --text-faint:   rgba(240, 238, 234, 0.45);
   --accent:       #d4f55a;
   --accent-dim:   rgba(212, 245, 90, 0.08);
   --blue:         #5b8fff;
@@ -19,7 +19,7 @@
   --font-display: 'Cabinet Grotesk', sans-serif;
   --font-body:    'DM Sans', sans-serif;
   --nav-height:   64px;
-  --max-w:        760px;
+  --max-w:        780px;
   --radius:       12px;
   --radius-sm:    8px;
   --radius-pill:  999px;
@@ -27,11 +27,22 @@
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; font-size: 16px; }
 
-body { text-align: left; }
-main { text-align: left; margin: 0; padding: 0; max-width: 100%; }
-p, h1, h2, h3, ul, li { text-align: left; }
+body, main, p, h1, h2, h3, h4, ul, li, div {
+  text-align: left !important;
+}
+main {
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  float: none !important;
+}
+.page-content, .post-content, .wrapper {
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
 
 body {
   background: var(--bg);
@@ -79,7 +90,7 @@ img { display: block; max-width: 100%; }
 
 .nav-links a {
   font-size: 13px;
-  color: var(--text-muted);
+  color: rgba(240, 238, 234, 0.6);
   letter-spacing: 0.3px;
   transition: color 0.2s;
 }
@@ -163,15 +174,15 @@ img { display: block; max-width: 100%; }
 
 .hero-subtitle {
   font-size: 14px;
-  color: var(--text-muted);
+  color: rgba(240, 238, 234, 0.55);
   font-weight: 300;
   letter-spacing: 0.3px;
   margin-bottom: 24px;
 }
 
 .hero-bio {
-  font-size: 15px;
-  line-height: 1.75;
+  font-size: 16px;
+  line-height: 1.8;
   color: var(--text-muted);
   max-width: 520px;
   margin-bottom: 32px;
@@ -290,7 +301,7 @@ img { display: block; max-width: 100%; }
 
 .stat-label {
   font-size: 11px;
-  color: var(--text-faint);
+  color: rgba(240, 238, 234, 0.5);
   letter-spacing: 0.5px;
   text-transform: uppercase;
 }
@@ -380,7 +391,7 @@ img { display: block; max-width: 100%; }
   font-size: 10px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  color: var(--text-faint);
+  color: rgba(240, 238, 234, 0.5);
   margin-bottom: 10px;
 }
 
@@ -395,9 +406,9 @@ img { display: block; max-width: 100%; }
 }
 
 .card-desc {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.65;
-  color: var(--text-muted);
+  color: rgba(240, 238, 234, 0.68);
   margin-bottom: 16px;
   flex: 1;
 }
