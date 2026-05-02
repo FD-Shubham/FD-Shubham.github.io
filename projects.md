@@ -80,6 +80,7 @@ permalink: /projects/
           <img src="/assets/images/skytroopers/florida-tarmac.jpg" alt="Aircraft at Florida competition" style="height: 110px; width: 160px; object-fit: cover; border-radius: 6px; flex-shrink: 0;">
           <img src="/assets/images/skytroopers/iitm-event.jpg" alt="Boeing IIT-M event" style="height: 110px; width: 160px; object-fit: cover; border-radius: 6px; flex-shrink: 0;">
         </div>
+        <a href="/projects/skytroopers/" class="section-link card-view-link">View Details →</a>
       </div>
     </div>
   </div>
