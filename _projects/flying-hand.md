@@ -8,6 +8,8 @@ tech: [PX4, CubeOrange+, ROS 2, VIO, F/T Sensing, C++, MAVROS]
 permalink: /projects/flying-hand/
 ---
 
+<img class="project-featured-img" src="/assets/images/flying_hand/ContactWall.JPG" alt="CMU AIR Lab outdoor test facility">
+
 ## Overview
 
 Traditional inspection of industrial infrastructure — offshore oil platforms, bridge decks, storage tanks — requires scaffolding, rope access, or expensive crawling robots. The Flying Hand brings the sensor directly to the asset: a fully-actuated aerial robot that hovers stably while applying controlled contact forces for non-destructive testing (NDT).
@@ -32,3 +34,10 @@ The platform is a custom hexarotor with fixed tilted rotors, enabling it to gene
 ## Current Status
 
 The airframe has been fabricated and initial hover testing is complete. Flight testing of the interaction controller is underway in the CMU AIR Lab indoor arena. Active development is focused on closing the force-control loop with the ATI F/T sensor and validating the VIO pipeline under rotor-induced vibration.
+
+<div class="photo-grid-2">
+  <img src="/assets/images/flying_hand/piloting.JPG" alt="Piloting the Flying Hand at CMU outdoor arena">
+  <img src="/assets/images/flying_hand/ContactWall.JPG" alt="CMU AIR Lab outdoor test facility">
+  <img src="/assets/images/flying_hand/group_picture.JPG" alt="MRSD team with the Flying Hand hexarotor">
+  <img src="/assets/images/flying_hand/group_dimi_john.jpg" alt="Flying Hand team with collaborators">
+</div>

@@ -7,6 +7,8 @@ tech: [ArduPilot, Python, Computer Vision, RTK GPS, HITL / SITL, MAVLink, Offsho
 permalink: /projects/cargo-uavs/
 ---
 
+<img class="project-featured-img" src="/assets/images/fdrones/IMG_20221207_155153%20(1).jpg" alt="Hyperlaunch fixed-wing VTOL on site">
+
 ## The Vehicles
 
 <div class="project-media">
@@ -20,6 +22,8 @@ permalink: /projects/cargo-uavs/
   </div>
   <p class="project-media-caption">Hyperlaunch — fixed-wing VTOL for long-range cargo delivery</p>
 </div>
+
+<img class="project-featured-img" src="/assets/images/fdrones/IMG_20230408_215350_JeusXML-V73-LMC-8-8T-9R.jpg" alt="Hyperlaunch fleet in F-Drones hangar">
 
 ## Overview
 
@@ -38,3 +42,8 @@ Both vehicles were designed to operate between vessels and offshore oil platform
 ## Testing & Deployment
 
 Over 100 hours of experimental flight testing across indoor arenas, open fields, and offshore vessel decks. The vehicles completed multiple commercial cargo runs, validating the full autonomy stack under real operating conditions.
+
+<div class="photo-grid-2">
+  <img src="/assets/images/fdrones/IMG-20231017-WA0002.jpg" alt="Team with Hypercopter at test site">
+  <img src="/assets/images/fdrones/IMG_20221207_154501.jpg" alt="Hypercopter hovering during field test">
+</div>
