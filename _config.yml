@@ -3,7 +3,7 @@ description: "UAV Systems Engineer | Robotics & Autonomous Aircraft"
 baseurl: ""
 url: "https://fd-shubham.github.io"
 
-remote_theme: jekyll/minima
+# remote_theme: jekyll/minima
 
 markdown: kramdown
 collections:
