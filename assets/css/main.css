@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabinet+Grotesk:wght@700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap');
+
 /* ============================================
    TOKENS & RESET
    ============================================ */
@@ -14,7 +16,7 @@
   --accent-dim:   rgba(212, 245, 90, 0.08);
   --blue:         #5b8fff;
   --red:          #ff6b6b;
-  --font-display: 'Syne', sans-serif;
+  --font-display: 'Cabinet Grotesk', sans-serif;
   --font-body:    'DM Sans', sans-serif;
   --nav-height:   64px;
   --max-w:        760px;
@@ -148,10 +150,10 @@ img { display: block; max-width: 100%; }
 .hero-name {
   font-family: var(--font-display);
   font-weight: 800;
-  font-size: clamp(40px, 6vw, 64px);
+  font-size: clamp(34px, 5vw, 52px);
   line-height: 1.0;
   color: #fff;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
   margin-bottom: 10px;
 }
 
