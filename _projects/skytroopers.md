@@ -14,27 +14,56 @@ The Skytroopers was MIT-WPU's competitive aeromodelling team, entering the SAE A
 
 Over three years, the team designed and built multiple aircraft for the Regular and Micro classes, culminating in a competition entry at SAE Aero Design East in Florida (2020) where we won Outstanding Technical Presentation and placed 3rd in Asia-Pacific.
 
+## Videos
+
+<div class="project-media">
+  <div class="project-video">
+    <iframe src="https://www.youtube.com/embed/6jTqUpqMcG0?start=168" title="SAE Aero Design — Featured Coverage" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <p class="project-media-caption">Featured in SAE Aero Design coverage — starts at the Skytroopers segment</p>
+
+  <div class="project-video">
+    <iframe src="https://www.youtube.com/embed/hUpJFkALwWw" title="The Skytroopers — Flight Footage" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  <div class="project-video">
+    <iframe src="https://www.youtube.com/embed/ta-30o_jt1Y" title="The Skytroopers — Competition" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
+
 ## Aircraft Design
 
 <div class="project-media">
   <div class="project-images">
     <img src="/assets/images/skytroopers/hero.jpg" alt="Final prototype — AeroDesign Florida 2020">
     <img src="/assets/images/skytroopers/cad-render.png" alt="SolidWorks CAD model — Alpha prototype">
+    <img src="/assets/images/skytroopers/aircraft-side.jpg" alt="Wing skeleton assembly — team for scale">
+  </div>
+  <div style="display: flex; gap: 8px; overflow-x: auto; margin: 4px 0 16px; padding-bottom: 6px; scrollbar-width: thin;">
+    <img src="/assets/images/skytroopers/comp-asia-a.jpg" alt="Completed balsa airframe" style="height: 160px; width: auto; object-fit: cover; border-radius: 6px; flex-shrink: 0; border: 0.5px solid var(--border);">
+    <img src="/assets/images/skytroopers/comp-asia-b.jpg" alt="Regular and micro class aircraft side by side" style="height: 160px; width: auto; object-fit: cover; border-radius: 6px; flex-shrink: 0; border: 0.5px solid var(--border);">
+    <img src="/assets/images/skytroopers/comp-asia-c.jpg" alt="All three competition aircraft — Asia 2019" style="height: 160px; width: auto; object-fit: cover; border-radius: 6px; flex-shrink: 0; border: 0.5px solid var(--border);">
   </div>
 </div>
 
 - **Airframe** — Balsa and composite construction with laser-cut ribs and 3D-printed structural joints. Full SolidWorks CAD pipeline from concept to fabrication drawings.
 - **Structural Analysis** — FEA in SolidWorks Simulation and ANSYS for wing spar, fuselage bulkhead, and landing gear under max payload and landing loads.
 - **Aerodynamics** — XFLR5 for airfoil selection, lift/drag polar analysis, and stability margin verification. CFD in SolidWorks Flow Simulation for fuselage drag estimation.
-- **Payload** — Regular class aircraft designed to carry 7.5 kg internal payload with removable bay. Micro class aircraft carried 1.5 kg in a tandem-wing configuration.
+- **Payload** — Regular class aircraft designed to carry 7.5 kg internal payload with removable bay.
 
 ## Build Process
 
 <div class="project-media">
   <div class="project-images">
-    <img src="/assets/images/skytroopers/frame-grass.jpg" alt="Balsa frame structure">
+    <img src="/assets/images/skytroopers/frame-grass.jpg" alt="Balsa rib frame structure">
     <img src="/assets/images/skytroopers/fuselage.jpg" alt="Fuselage skeleton build">
-    <img src="/assets/images/skytroopers/flight.jpg" alt="Aircraft in flight">
+    <img src="/assets/images/skytroopers/build-yr3-a.jpg" alt="Full wing skeleton — Year 3 build">
+  </div>
+  <div style="display: flex; gap: 8px; overflow-x: auto; margin: 4px 0 16px; padding-bottom: 6px; scrollbar-width: thin;">
+    <img src="/assets/images/skytroopers/hotwire.jpg" alt="Hotwire foam cutting for airfoil cores" style="height: 160px; width: auto; object-fit: cover; border-radius: 6px; flex-shrink: 0; border: 0.5px solid var(--border);">
+    <img src="/assets/images/skytroopers/build-yr3-b.jpg" alt="Completed wing panel in workshop" style="height: 160px; width: auto; object-fit: cover; border-radius: 6px; flex-shrink: 0; border: 0.5px solid var(--border);">
+    <img src="/assets/images/skytroopers/build-yr3-c.jpg" alt="Finished wing with Skytroopers livery" style="height: 160px; width: auto; object-fit: cover; border-radius: 6px; flex-shrink: 0; border: 0.5px solid var(--border);">
+    <img src="/assets/images/skytroopers/workshop.jpg" alt="Team with vertical fin structure" style="height: 160px; width: auto; object-fit: cover; border-radius: 6px; flex-shrink: 0; border: 0.5px solid var(--border);">
   </div>
 </div>
 
@@ -42,13 +71,38 @@ Over three years, the team designed and built multiple aircraft for the Regular 
 - **Rapid Prototyping** — Alpha prototype built and tested within 6 weeks to validate wing geometry before committing to the final airframe.
 - **Ground Testing** — Static load tests on wing assembly to 2× design load, CG verification with ballast, and full control throws sweep before first flight.
 
+## Micro Class Aircraft
+
+<div class="project-media">
+  <div class="project-images">
+    <img src="/assets/images/skytroopers/event-2019-a.jpg" alt="Tandem-wing micro class aircraft on runway">
+    <img src="/assets/images/skytroopers/event-2019-b.jpg" alt="Micro class aircraft — top view showing tandem configuration">
+    <img src="/assets/images/skytroopers/event-2019-d.jpg" alt="Micro class aircraft on display">
+  </div>
+</div>
+
+- **Configuration** — Tandem-wing design for the SAE Micro class, optimised for minimum structural weight while carrying 1.5 kg payload.
+- **Design Challenge** — Achieving adequate pitch stability without a conventional tail, using fore/aft wing placement and CG tuning verified in XFLR5.
+- **Construction** — Foam-core wings with carbon spar and 3D-printed motor mount. Entire airframe under 400 g empty weight.
+
 ## Competition & Outreach
 
 <div class="project-media">
   <div class="project-images">
-    <img src="/assets/images/skytroopers/team-comp.jpg" alt="Team at competition">
-    <img src="/assets/images/skytroopers/florida-tarmac.jpg" alt="Boeing IITM event">
-    <img src="/assets/images/skytroopers/iitm-event.jpg" alt="Boeing IITM event 2">
+    <img src="/assets/images/skytroopers/team-comp.jpg" alt="Team at SAE Aero Design East, Florida 2020">
+    <img src="/assets/images/skytroopers/florida-tarmac.jpg" alt="Aircraft on Florida competition tarmac">
+    <img src="/assets/images/skytroopers/iitm-event.jpg" alt="Boeing IIT-M aeromodelling event">
+  </div>
+  <div style="display: flex; gap: 8px; overflow-x: auto; margin: 4px 0 16px; padding-bottom: 6px; scrollbar-width: thin;">
+    <img src="/assets/images/skytroopers/flight.jpg" alt="Aircraft in flight" style="height: 160px; width: auto; object-fit: cover; border-radius: 6px; flex-shrink: 0; border: 0.5px solid var(--border);">
+    <img src="/assets/images/skytroopers/build-yr1-a.jpg" alt="Year 1 prototype — first competition aircraft" style="height: 160px; width: auto; object-fit: cover; border-radius: 6px; flex-shrink: 0; border: 0.5px solid var(--border);">
+    <img src="/assets/images/skytroopers/build-yr1-b.jpg" alt="Early team at Asia-Pacific competition 2019" style="height: 160px; width: auto; object-fit: cover; border-radius: 6px; flex-shrink: 0; border: 0.5px solid var(--border);">
+    <img src="/assets/images/skytroopers/event-2019-c.jpg" alt="Receiving award at regional competition" style="height: 160px; width: auto; object-fit: cover; border-radius: 6px; flex-shrink: 0; border: 0.5px solid var(--border);">
+    <img src="/assets/images/skytroopers/prep-florida-b.jpg" alt="Team with prize certificate" style="height: 160px; width: auto; object-fit: cover; border-radius: 6px; flex-shrink: 0; border: 0.5px solid var(--border);">
+    <img src="/assets/images/skytroopers/comp-asia-d.jpg" alt="Presenting aircraft to university officials" style="height: 160px; width: auto; object-fit: cover; border-radius: 6px; flex-shrink: 0; border: 0.5px solid var(--border);">
+    <img src="/assets/images/skytroopers/comp-asia-e.jpg" alt="Demo to officials — Asia Pacific event" style="height: 160px; width: auto; object-fit: cover; border-radius: 6px; flex-shrink: 0; border: 0.5px solid var(--border);">
+    <img src="/assets/images/skytroopers/comp-asia-f.jpg" alt="Team with competition aircraft" style="height: 160px; width: auto; object-fit: cover; border-radius: 6px; flex-shrink: 0; border: 0.5px solid var(--border);">
+    <img src="/assets/images/skytroopers/prep-florida-a.jpg" alt="Post-crash inspection during Florida prep flights" style="height: 160px; width: auto; object-fit: cover; border-radius: 6px; flex-shrink: 0; border: 0.5px solid var(--border);">
   </div>
 </div>
 
